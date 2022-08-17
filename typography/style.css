@@ -7,7 +7,7 @@
     padding-top: 0%;
 }
 h1 {
-    display:flex;
+    display: flex;
     font-family: 'museoModerno';
     font-size: 5rem;
     font-weight: bold;
@@ -38,7 +38,7 @@ h6 {
     color: white;
 }
 
-div {
+.bgimage {
     width: 200px;   
     height: 150px; 
     color: white;
@@ -49,6 +49,17 @@ div {
     border-radius: 1rem 1rem;
     background-image: url("./img/Janzen_lonely_man_sitting_on_a_bench_stargazing_in_starry_night_3e593f47-4083-4435-9e55-f5c5d7613d9c.png.png");
     background-size: cover;
-    
-    
+    box-shadow: 1rem 1rem 5px #40404247;
+}
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;   
+    height: 100px;
+    background: yellow;
+    opacity: 30%;
+    top: -100px;
+    left: 50px;
+    position: relative;
 }
