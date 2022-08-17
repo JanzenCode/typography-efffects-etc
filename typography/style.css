@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+
+.section {
+    background-image: url("./img/Janzen_lonely_man_sitting_on_a_bench_stargazing_in_starry_night_3e593f47-4083-4435-9e55-f5c5d7613d9c.png.png");
+    background-size: cover, 10%;
+    padding-bottom: 50vh;
+    padding-top: 0%;
+}
+h1 {
+    display:flex;
+    font-family: 'museoModerno';
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    align-items: right;
+    justify-content: right;
+}
+p {
+    font-family: Arial;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    margin-left: 5%;
+}
+
+.bold1 {
+    font-weight: bold;
+    font-family: 'Gill Sans';
+    color: rgb(83, 96, 96);
+}
+
+.background {
+    background: linear-gradient(to left, #404042, #373838);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h6 {
+    color: white;
+}
+
+div {
+    width: 200px;   
+    height: 150px; 
+    color: white;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    background: green;
+    border-radius: 1rem 1rem;
+    background-image: url("./img/Janzen_lonely_man_sitting_on_a_bench_stargazing_in_starry_night_3e593f47-4083-4435-9e55-f5c5d7613d9c.png.png");
+    background-size: cover;
+    
+    
+}
